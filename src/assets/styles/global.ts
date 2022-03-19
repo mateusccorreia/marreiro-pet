@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
     * {
         margin: 0;
         padding: 0;
-        box-sizing: border-box;    
+        box-sizing: border-box;      
     }
 
     html {
@@ -28,7 +28,7 @@ export const GlobalStyle = createGlobalStyle`
         -webkit-font-smoothing: antialiased;
     }
 
-    body, input, textarea, button {
+    body, input, textarea, button, Nav {
         font-family: 'Poppins', sans-serif;
         font-weight: 400;
     }
@@ -45,5 +45,5 @@ export const GlobalStyle = createGlobalStyle`
         opacity: 0.6;
         cursor: not-allowed;
     }
-
+    
 `
