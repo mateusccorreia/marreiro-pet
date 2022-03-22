@@ -24,12 +24,15 @@ const Navbar = () => {
               <NavLink to="/entre-em-contato">
                   Entre em contato
               </NavLink>
+              <NavBtnLink to='/agendamentos'>
+                Agendamentos
+            </NavBtnLink>
           </NavMenu>
-        <NavBtn>
+        {/* <NavBtn>
             <NavBtnLink to='/agendamentos'>
                 Agendamentos
             </NavBtnLink>
-        </NavBtn>
+        </NavBtn> */}
       </Nav>
     </>
   )
