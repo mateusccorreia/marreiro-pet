@@ -1,6 +1,6 @@
 import React from 'react';
 import {Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink} from './NavbarElements';
-import logoImg from '../../assets/logo.svg';
+import logoImg from '../../assets/logo-1.png';
 
 interface activeStyle {
     isActive: boolean;
@@ -16,23 +16,23 @@ const Navbar = () => {
           <Bars />
           <NavMenu>
               <NavLink to="/sobre">
-                  Sobre
+                  Assinatura
               </NavLink>
-              <NavLink to="/servicos">
-                  Serviços
+              {/* <NavLink to="/servicos">
+                  Agendamentos
               </NavLink>
               <NavLink to="/entre-em-contato">
                   Entre em contato
-              </NavLink>
+              </NavLink> */}
               <NavBtnLink to='/agendamentos'>
                 Agendamentos
             </NavBtnLink>
           </NavMenu>
-        {/* <NavBtn>
+        {/* {<NavBtn>
             <NavBtnLink to='/agendamentos'>
-                Agendamentos
+                Cadastre-se
             </NavBtnLink>
-        </NavBtn> */}
+        </NavBtn>} */}
       </Nav>
     </>
   )
